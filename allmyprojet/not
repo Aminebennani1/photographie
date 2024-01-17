@@ -1,0 +1,147 @@
+  <!-- <b class="debut">Take a professional photo</b>
+    <p class="Réalisée">Réalisée par: <br>
+      Medamine bennani <br> kabchi
+    </p>
+    <p class="Encadré">Encadré par: <br>
+      Mr.Abdellatif <br>soklabi
+    </p>
+    <p class="solicod">{Solicode}</p> -->
+    //////////////
+    <!-- <div class="all"></div>
+  <section class="bg"></section>
+  <div class="loading-text">0%</div>
+
+  <div class="setTimeout">
+    <b class="debut">Take a professional photo</b>
+    <p class="Réalisée">Réalisée par: <br>
+      Medamine bennani <br> kabchi
+    </p>
+    <p class="Encadré">Encadré par: <br>
+      Mr.Abdellatif <br>soklabi
+    </p>
+    <p class="solicod">{Solicode}</p>
+
+
+  </div> -->
+
+  <!-- //////////////////////// -->
+
+  <!-- const loadText = document.querySelector('.loading-text')
+const bg = document.querySelector('.bg')
+const setDiv = document.querySelector(".setTimeout");
+setDiv.setAttribute("style","display: none;")
+setTimeout(function(){
+    setDiv.removeAttribute("style")
+},2800)
+
+let load = 0
+let int = setInterval(blurring, 30)
+
+function blurring() {
+  load++
+
+  if (load > 99) {
+    clearInterval(int)
+  }
+
+  loadText.innerText = `${load}%`
+  loadText.style.opacity = scale(load, 0, 100, 1, 0)
+  bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
+}
+const scale = (num, in_min, in_max, out_min, out_max) => {
+  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+}
+ 
+const nav = document.querySelector('.nav')
+window.addEventListener('scroll', fixNav)
+
+function fixNav() {
+    if(window.scrollY > nav.offsetHeight + 150) {
+        nav.classList.add('active')
+    } else {
+        nav.classList.remove('active')
+    }
+} -->
+
+<!-- ///////////////////// -->
+
+<!-- @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+.all {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.bg {
+    background: url(shutter-priority.jpg);
+    background-size: cover;
+    border-radius: 20%;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: 2;
+    filter: blur(0px);
+}
+
+.loading-text {
+
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+
+}
+.debut{
+   position: absolute;
+    left: 10%;
+    top: 35%;
+    z-index: 4;
+    display: flex;
+    font-family: cursive;
+    font-size: 30px;
+    color:black;
+}
+.Réalisée{
+   position: absolute;
+    left: 3%;
+    top: 70%;
+    z-index: 4;
+    display: flex;
+    font-family:cursive;
+    font-size: 20px;
+    color:black;
+}
+.Encadré{
+   position: absolute;
+   left: 35%;
+   top: 70%;
+   z-index: 4;
+   display: flex;
+   font-family:cursive;
+   font-size: 20px;
+   color:black;
+}
+.solicod{
+   position: absolute;
+    top: 3%;
+    z-index: 6;
+    color: blue;
+    font-size: 300%;  
+} -->
